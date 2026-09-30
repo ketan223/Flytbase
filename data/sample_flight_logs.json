@@ -1,0 +1,273 @@
+[
+  {
+    "frame_id": "FRAME_001",
+    "mission_id": "PATROL_DAY_1200",
+    "timestamp": "2026-09-30 12:00:00",
+    "scene_type": "Main Gate Entrance",
+    "telemetry": {
+      "timestamp": "2026-09-30 12:00:00",
+      "latitude": 37.774929,
+      "longitude": -122.419416,
+      "altitude_m": 16.5,
+      "battery_pct": 98.0,
+      "speed_mps": 4.2,
+      "heading_deg": 45.0,
+      "zone_id": "ZONE_GATE",
+      "zone_name": "Main Gate",
+      "mission_id": "PATROL_DAY_1200"
+    },
+    "objects": [
+      {
+        "object_id": "VEH_001",
+        "label": "vehicle",
+        "description": "Blue Ford F150",
+        "attributes": {
+          "color": "blue",
+          "make": "Ford",
+          "model": "F150",
+          "type": "pickup_truck"
+        },
+        "confidence": 0.97,
+        "bbox": [
+          220,
+          260,
+          360,
+          480
+        ]
+      }
+    ],
+    "caption": "A blue Ford F150 pickup truck approaching the Main Gate entrance barrier at 12:00.",
+    "activity_summary": "Authorized commercial entry during operational hours.",
+    "is_night": false,
+    "image_path": "data\\frames\\FRAME_001.png"
+  },
+  {
+    "frame_id": "FRAME_002",
+    "mission_id": "PATROL_DAY_1200",
+    "timestamp": "2026-09-30 12:00:45",
+    "scene_type": "Executive Garage",
+    "telemetry": {
+      "timestamp": "2026-09-30 12:00:45",
+      "latitude": 37.77531,
+      "longitude": -122.41885,
+      "altitude_m": 18.0,
+      "battery_pct": 96.0,
+      "speed_mps": 2.1,
+      "heading_deg": 90.0,
+      "zone_id": "ZONE_GARAGE",
+      "zone_name": "Executive Garage",
+      "mission_id": "PATROL_DAY_1200"
+    },
+    "objects": [
+      {
+        "object_id": "VEH_001",
+        "label": "vehicle",
+        "description": "Blue Ford F150",
+        "attributes": {
+          "color": "blue",
+          "make": "Ford",
+          "model": "F150",
+          "type": "pickup_truck"
+        },
+        "confidence": 0.98,
+        "bbox": [
+          210,
+          320,
+          350,
+          540
+        ]
+      }
+    ],
+    "caption": "Blue Ford F150 spotted at garage, 12:00.",
+    "activity_summary": "Vehicle maneuvering into assigned parking bay outside executive garage.",
+    "is_night": false,
+    "image_path": "data\\frames\\FRAME_002.png"
+  },
+  {
+    "frame_id": "FRAME_003",
+    "mission_id": "PATROL_DAY_1200",
+    "timestamp": "2026-09-30 12:01:30",
+    "scene_type": "Warehouse Loading Bay",
+    "telemetry": {
+      "timestamp": "2026-09-30 12:01:30",
+      "latitude": 37.7761,
+      "longitude": -122.4179,
+      "altitude_m": 22.0,
+      "battery_pct": 94.0,
+      "speed_mps": 5.0,
+      "heading_deg": 135.0,
+      "zone_id": "ZONE_WAREHOUSE",
+      "zone_name": "Warehouse Loading Bay",
+      "mission_id": "PATROL_DAY_1200"
+    },
+    "objects": [
+      {
+        "object_id": "VEH_002",
+        "label": "vehicle",
+        "description": "White Delivery Box Truck",
+        "attributes": {
+          "color": "white",
+          "type": "delivery_truck"
+        },
+        "confidence": 0.94,
+        "bbox": [
+          200,
+          240,
+          370,
+          510
+        ]
+      }
+    ],
+    "caption": "White commercial delivery truck staged at Warehouse Loading Bay 3.",
+    "activity_summary": "Standard logistics operations at warehouse bay.",
+    "is_night": false,
+    "image_path": "data\\frames\\FRAME_003.png"
+  },
+  {
+    "frame_id": "FRAME_004",
+    "mission_id": "PATROL_NIGHT_0001",
+    "timestamp": "2026-09-30 00:00:50",
+    "scene_type": "Perimeter Fence East",
+    "telemetry": {
+      "timestamp": "2026-09-30 00:00:50",
+      "latitude": 37.7745,
+      "longitude": -122.4201,
+      "altitude_m": 15.0,
+      "battery_pct": 100.0,
+      "speed_mps": 3.8,
+      "heading_deg": 180.0,
+      "zone_id": "ZONE_FENCE_EAST",
+      "zone_name": "Perimeter Fence East",
+      "mission_id": "PATROL_NIGHT_0001"
+    },
+    "objects": [],
+    "caption": "Night infrared scan of Perimeter Fence East. Boundary is intact and clear.",
+    "activity_summary": "No security anomalies detected.",
+    "is_night": true,
+    "image_path": "data\\frames\\FRAME_004.png"
+  },
+  {
+    "frame_id": "FRAME_005",
+    "mission_id": "PATROL_NIGHT_0001",
+    "timestamp": "2026-09-30 00:01:00",
+    "scene_type": "Main Gate Entrance",
+    "telemetry": {
+      "timestamp": "2026-09-30 00:01:00",
+      "latitude": 37.774929,
+      "longitude": -122.419416,
+      "altitude_m": 14.0,
+      "battery_pct": 98.0,
+      "speed_mps": 1.2,
+      "heading_deg": 270.0,
+      "zone_id": "ZONE_GATE",
+      "zone_name": "Main Gate",
+      "mission_id": "PATROL_NIGHT_0001"
+    },
+    "objects": [
+      {
+        "object_id": "PER_001",
+        "label": "person",
+        "description": "Individual in dark hoodie",
+        "attributes": {
+          "clothing": "dark hoodie",
+          "posture": "standing stationary",
+          "action": "loitering"
+        },
+        "confidence": 0.96,
+        "bbox": [
+          230,
+          360,
+          370,
+          420
+        ]
+      }
+    ],
+    "caption": "Person loitering at main gate, 00:01.",
+    "activity_summary": "Unidentified individual observed standing stationary outside gate after curfew.",
+    "is_night": true,
+    "image_path": "data\\frames\\FRAME_005.png"
+  },
+  {
+    "frame_id": "FRAME_006",
+    "mission_id": "PATROL_NIGHT_0001",
+    "timestamp": "2026-09-30 00:01:30",
+    "scene_type": "Main Gate Entrance",
+    "telemetry": {
+      "timestamp": "2026-09-30 00:01:30",
+      "latitude": 37.774932,
+      "longitude": -122.419418,
+      "altitude_m": 12.5,
+      "battery_pct": 97.0,
+      "speed_mps": 0.3,
+      "heading_deg": 270.0,
+      "zone_id": "ZONE_GATE",
+      "zone_name": "Main Gate",
+      "mission_id": "PATROL_NIGHT_0001"
+    },
+    "objects": [
+      {
+        "object_id": "PER_001",
+        "label": "person",
+        "description": "Individual in dark hoodie",
+        "attributes": {
+          "clothing": "dark hoodie",
+          "posture": "pacing",
+          "action": "loitering"
+        },
+        "confidence": 0.97,
+        "bbox": [
+          235,
+          370,
+          375,
+          430
+        ]
+      }
+    ],
+    "caption": "Person loitering at main gate, 00:01. Continuous dwell time exceeded 30 seconds.",
+    "activity_summary": "Sustained unauthorized loitering at access control gate.",
+    "is_night": true,
+    "image_path": "data\\frames\\FRAME_006.png"
+  },
+  {
+    "frame_id": "FRAME_007",
+    "mission_id": "PATROL_NIGHT_0001",
+    "timestamp": "2026-09-30 00:02:15",
+    "scene_type": "Warehouse Loading Bay",
+    "telemetry": {
+      "timestamp": "2026-09-30 00:02:15",
+      "latitude": 37.776105,
+      "longitude": -122.417895,
+      "altitude_m": 15.0,
+      "battery_pct": 95.0,
+      "speed_mps": 3.0,
+      "heading_deg": 45.0,
+      "zone_id": "ZONE_WAREHOUSE",
+      "zone_name": "Warehouse Loading Bay",
+      "mission_id": "PATROL_NIGHT_0001"
+    },
+    "objects": [
+      {
+        "object_id": "VEH_001",
+        "label": "vehicle",
+        "description": "Blue Ford F150",
+        "attributes": {
+          "color": "blue",
+          "make": "Ford",
+          "model": "F150",
+          "type": "pickup_truck"
+        },
+        "confidence": 0.98,
+        "bbox": [
+          215,
+          270,
+          360,
+          500
+        ]
+      }
+    ],
+    "caption": "Blue Ford F150 re-entered property and spotted idling near warehouse fire lane at 00:02.",
+    "activity_summary": "Second sighting of vehicle today; unauthorized entry outside business hours.",
+    "is_night": true,
+    "image_path": "data\\frames\\FRAME_007.png"
+  }
+]
