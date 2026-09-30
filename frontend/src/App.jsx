@@ -762,6 +762,36 @@ export default function App() {
                   </div>
                 </div>
 
+                {/* Embedded Video Walkthrough with Controls */}
+                <div className="bg-[#090d16] border border-cyan-700/60 rounded-lg p-3 space-y-2">
+                  <div className="flex items-center justify-between text-[11px] font-mono font-bold text-cyan-400">
+                    <div className="flex items-center gap-1.5">
+                      <Play className="w-3.5 h-3.5 text-cyan-400" />
+                      <span>CANDIDATE DEMO WALKTHROUGH VIDEO</span>
+                    </div>
+                    <span className="text-[10px] bg-cyan-950 px-1.5 py-0.5 rounded border border-cyan-800 text-cyan-300">
+                      WITH VOICEOVER
+                    </span>
+                  </div>
+                  <video
+                    controls
+                    className="w-full rounded-md border border-slate-800 aspect-video bg-black"
+                    src="/data/walkthrough_demo.mp4"
+                    poster="/data/react_dashboard_live.png"
+                  >
+                    Your browser does not support HTML5 video.
+                  </video>
+                  <a
+                    href="https://drive.google.com/file/d/1npOgKsi35nmpjYtcANqZdjWedgEEL4sb/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-[10px] font-mono text-cyan-400 hover:underline flex items-center gap-1 justify-center pt-1"
+                  >
+                    <ExternalLink className="w-3 h-3" />
+                    <span>Open Alternative Google Drive Stream</span>
+                  </a>
+                </div>
+
                 {/* PDF Download Button */}
                 <div className="pt-2 border-t border-slate-800">
                   <a

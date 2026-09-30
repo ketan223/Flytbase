@@ -11,6 +11,26 @@
 
 ---
 
+## 🎥 Walkthrough Video Demonstration (with Voiceover)
+
+> 📺 **Candidate Video Walkthrough**: An end-to-end demonstration walking through live telemetry ingestion, VLM reasoning, midnight curfew loitering alerts, recurrence tracking, ChromaDB vector search, and LangChain security chat.
+
+<div align="center">
+  <a href="https://drive.google.com/file/d/1npOgKsi35nmpjYtcANqZdjWedgEEL4sb/view?usp=sharing" target="_blank">
+    <img src="data/react_dashboard_live.png" alt="FlytBase Drone Security Analyst Agent Walkthrough Video" width="850" style="border-radius: 8px; border: 1px solid #1e293b;" />
+  </a>
+  <br/><br/>
+  <a href="https://drive.google.com/file/d/1npOgKsi35nmpjYtcANqZdjWedgEEL4sb/view?usp=sharing" target="_blank">
+    <img src="https://img.shields.io/badge/▶️%20CLICK%20TO%20PLAY%20VIDEO-Google%20Drive-red?style=for-the-badge&logo=google-drive&logoColor=white" height="36" />
+  </a>
+</div>
+
+### 📥 Video Assets Included:
+- **Google Drive Stream Link**: [Watch Video on Google Drive](https://drive.google.com/file/d/1npOgKsi35nmpjYtcANqZdjWedgEEL4sb/view?usp=sharing)
+- **Direct Repository File**: [`docs/walkthrough_demo.mp4`](docs/walkthrough_demo.mp4) (High-Definition MP4 with Voiceover, 13.6 MB)
+
+---
+
 ## 📑 Table of Contents
 1. [Key Features & Highlights](#-key-features--highlights)
 2. [Architecture Overview](#-architecture-overview)
